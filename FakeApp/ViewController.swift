@@ -2,6 +2,8 @@ import UIKit
 import Alamofire
 
 class ViewController: UIViewController {
+    @IBOutlet private weak var tableView: UITableView!
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         getUsers()
